@@ -44,15 +44,15 @@ Custom Search Engine: A search engine powered by Langchain for enhanced query un
 **RAG**
 Fact-Checking Tool: Uses RAG to verify statements against a corpus of documents.
 Question Answering System: A sophisticated system that answers complex questions by retrieving relevant information.
-How to Contribute
+## How to Contribute
 
 We welcome contributions from the community! Whether it's adding new projects, improving existing ones, or fixing bugs, your help is invaluable. Please see CONTRIBUTING.md for more details on how to contribute.
 
-**License**
+## **License**
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-**Acknowledgments**
+## **Acknowledgments**
 
 Thanks to all the contributors who have helped shape this repository.
 Special thanks to the creators and maintainers of GPT, Langchain, and RAG for developing these powerful technologies.
