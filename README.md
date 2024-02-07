@@ -33,7 +33,7 @@ git clone https://github.com/yourusername/AI-Projects.git
 cd AI-Projects
 # Follow specific setup instructions for each project
 
-## Getting Started
+## Projects
 
 **GPT**
 Text Generation Tool: Generates creative text based on input prompts.
