@@ -32,3 +32,27 @@ Here's how to clone this repository and set up your environment:
 git clone https://github.com/yourusername/AI-Projects.git
 cd AI-Projects
 # Follow specific setup instructions for each project
+
+**## Projects**
+
+**GPT**
+Text Generation Tool: Generates creative text based on input prompts.
+Chatbot: A simple AI chatbot using GPT for answering questions.
+**Langchain**
+Language Model as a Service: Demonstrates how to set up various language models as a web service.
+Custom Search Engine: A search engine powered by Langchain for enhanced query understanding.
+**RAG**
+Fact-Checking Tool: Uses RAG to verify statements against a corpus of documents.
+Question Answering System: A sophisticated system that answers complex questions by retrieving relevant information.
+How to Contribute
+
+We welcome contributions from the community! Whether it's adding new projects, improving existing ones, or fixing bugs, your help is invaluable. Please see CONTRIBUTING.md for more details on how to contribute.
+
+**License**
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+**Acknowledgments**
+
+Thanks to all the contributors who have helped shape this repository.
+Special thanks to the creators and maintainers of GPT, Langchain, and RAG for developing these powerful technologies.
