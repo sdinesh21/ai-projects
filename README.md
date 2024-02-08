@@ -28,8 +28,11 @@ To get started with these projects, you'll need to have a basic understanding of
 Here's how to clone this repository and set up your environment:
 
 bash
+
 git clone https://github.com/yourusername/AI-Projects.git
+
 cd AI-Projects
+
 Follow specific setup instructions for each project
 
 ## Projects
