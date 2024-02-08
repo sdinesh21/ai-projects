@@ -23,27 +23,21 @@ cd csv-based-ai-chatbot</code>
 
 2. **Install Dependencies**
 Install the required Python packages using pip and the `REQUIREMENTS.txt` file:
-<code>
-pip install -r REQUIREMENTS.txt
-</code>
+<br><code>pip install -r REQUIREMENTS.txt</code>
 
 
 This command will automatically install all the dependencies listed in the `REQUIREMENTS.txt` file, including `streamlit`, `langchain`, `openai`, `streamlit-chat`, and any others specified.
 
 3. **Set Up Your OpenAI API Key**
 Obtain an API key from [OpenAI](https://openai.com/), and set it as an environment variable in your terminal session:
-<code>
-export OPENAI_API_KEY='your_api_key_here'
-</code>
+<br><code>export OPENAI_API_KEY='your_api_key_here'</code>
 
 Alternatively, you can enter your API key directly through the application's interface when prompted.
 
 ## Running the Application
 
 To launch the application, run the following command in your terminal:
-<code>
-streamlit run app.py
-</code>
+<br><code>streamlit run app.py</code>
 
 Navigate to the provided URL, usually `http://localhost:8501`, in your web browser to interact with the application.
 
