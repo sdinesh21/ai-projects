@@ -43,7 +43,8 @@ Alternatively, you can enter your API key directly through the application's int
 ## Running the Application
 
 To launch the application, run the following command in your terminal:
-```streamlit run app.py
+```
+streamlit run app.py
 ```
 
 Navigate to the provided URL, usually http://localhost:8501, in your web browser to interact with the application.
