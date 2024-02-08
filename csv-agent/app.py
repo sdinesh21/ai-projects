@@ -9,20 +9,6 @@ api_key = st.sidebar.text_input("Enter your API key:", type="password")
 
 uploaded_file = st.sidebar.file_uploader("Upload a CSV file", type=["csv"])
 
-st.sidebar.title("Follow Us")
-st.sidebar.markdown(
-    """
-    * [Web](https://ngmi.ai/)
-    * [Mastodon](https://mastodon.online/@ngmi)
-    * [GitHub](https://github.com/ngmisl)
-    """
-)
-
-st.sidebar.title("Our Product")
-st.sidebar.markdown(
-    "[The Ultimate 5 ChatGPT Prompts: Simplify Your AI Experience](https://ngmi.gumroad.com/l/nobsprompts)"
-)
-
 if api_key:
     os.environ["OPENAI_API_KEY"] = api_key
     import openai
@@ -33,7 +19,7 @@ if api_key:
         st.write("CSV file uploaded successfully!")
 
         agent = create_csv_agent(
-            OpenAI(temperature=0, client=any), uploaded_file, verbose=True
+            OpenAI(temperature=0, client=any, model_name='gpt-4'), uploaded_file, verbose=True
         )
 
         # Initialize the chat history in the session_state if it doesn't exist
