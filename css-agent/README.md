@@ -18,8 +18,7 @@ Before you can run this project, you'll need the following:
 ## Installation
 
 1. **Clone the Repository**
-<code>
-git clone https://github.com/yourusername/csv-based-ai-chatbot.git
+<code>git clone https://github.com/yourusername/csv-based-ai-chatbot.git
 cd csv-based-ai-chatbot
 </code>
 
