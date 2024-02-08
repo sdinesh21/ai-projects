@@ -25,10 +25,9 @@ Each directory includes a README file with detailed descriptions of the projects
 ## Getting Started
 
 To get started with these projects, you'll need to have a basic understanding of programming and AI concepts. Some projects may require specific software or hardware requirements, which are listed in the individual project READMEs.
-
 Here's how to clone this repository and set up your environment:
 
-```bash
+bash
 git clone https://github.com/yourusername/AI-Projects.git
 cd AI-Projects
 # Follow specific setup instructions for each project
@@ -44,6 +43,7 @@ Custom Search Engine: A search engine powered by Langchain for enhanced query un
 **RAG**
 Fact-Checking Tool: Uses RAG to verify statements against a corpus of documents.
 Question Answering System: A sophisticated system that answers complex questions by retrieving relevant information.
+
 ## How to Contribute
 
 We welcome contributions from the community! Whether it's adding new projects, improving existing ones, or fixing bugs, your help is invaluable. Please see CONTRIBUTING.md for more details on how to contribute.
