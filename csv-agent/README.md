@@ -23,7 +23,7 @@ cd csv-based-ai-chatbot</code>
 
 2. **Install Dependencies**
 Install the required Python packages using pip and the `REQUIREMENTS.txt` file:
-<br><code>pip install -r REQUIREMENTS.txt</code>
+<br>```pip install -r REQUIREMENTS.txt```
 
 
 This command will automatically install all the dependencies listed in the `REQUIREMENTS.txt` file, including `streamlit`, `langchain`, `openai`, `streamlit-chat`, and any others specified.
