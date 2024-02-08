@@ -25,11 +25,11 @@ Before you begin, please ensure you have a GitHub account and are familiar with 
 
 - **Write a clear log message for your commits.** One-line messages are fine for small changes, but bigger changes should look like this:
 
-    <code>
+    ```
     $ git commit -m "A brief summary of the commit
     >
     > A paragraph describing what changed and its impact."
-    </code>
+    ```
 
 - **Target your pull requests to the `main` branch** for new features and bug fixes.
 
