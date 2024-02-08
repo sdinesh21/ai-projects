@@ -26,13 +26,13 @@ Each directory includes a README file with detailed descriptions of the projects
 
 To get started with these projects, you'll need to have a basic understanding of programming and AI concepts. Some projects may require specific software or hardware requirements, which are listed in the individual project READMEs.
 Here's how to clone this repository and set up your environment:
-
+<br />
 <code>
 bash
 git clone https://github.com/sdinesh21/AI-Projects.git
 cd AI-Projects
 </code>
-
+<br />
 Follow specific setup instructions for each project
 
 ## Projects
