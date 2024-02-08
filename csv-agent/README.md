@@ -18,8 +18,10 @@ Before you can run this project, you'll need the following:
 ## Installation
 
 1. **Clone the Repository**
-<br><code>git clone https://github.com/sdinesh21/csv-based-ai-chatbot.git
-cd csv-based-ai-chatbot</code>
+```
+git clone https://github.com/sdinesh21/csv-based-ai-chatbot.git
+cd csv-based-ai-chatbot
+```
 
 2. **Install Dependencies**
 Install the required Python packages using pip and the `REQUIREMENTS.txt` file:
@@ -32,14 +34,17 @@ This command will automatically install all the dependencies listed in the `REQU
 
 3. **Set Up Your OpenAI API Key**
 Obtain an API key from [OpenAI](https://openai.com/), and set it as an environment variable in your terminal session:
-<br><code>export OPENAI_API_KEY='your_api_key_here'</code>
+```
+export OPENAI_API_KEY='your_api_key_here'
+```
 
 Alternatively, you can enter your API key directly through the application's interface when prompted.
 
 ## Running the Application
 
 To launch the application, run the following command in your terminal:
-<br><code>streamlit run app.py</code>
+```streamlit run app.py
+```
 
 Navigate to the provided URL, usually http://localhost:8501, in your web browser to interact with the application.
 
