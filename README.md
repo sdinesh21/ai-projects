@@ -1,6 +1,6 @@
 # AI-Projects
 
-Welcome to the AI-Projects repository! This is a collection of innovative projects that utilize cutting-edge AI technologies, including Generative Pre-trained Transformer (GPT), Langchain, and Retrieval-Augmented Generation (RAG). Our aim is to provide a hands-on learning experience for those interested in exploring the capabilities of AI and NLP (Natural Language Processing) and to foster a community of enthusiasts and developers working together to push the boundaries of what's possible.
+Welcome to the AI-Projects repository! This is a collection of innovative projects that utilize cutting-edge AI technologies, including Generative Pre-trained Transformer (GPT), Langchain, and Retrieval-Augmented Generation (RAG).
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Welcome to the AI-Projects repository! This is a collection of innovative projec
 
 ## Introduction
 
-This repository is designed as a starting point for those interested in AI technologies, specifically focusing on GPT, Langchain, and RAG. Each directory contains sample projects that demonstrate the capabilities and potential applications of these technologies.
+This repository is designed as a starting point in AI technologies, specifically focusing on GPT, Langchain, and RAG. Each directory contains sample projects that demonstrate the capabilities and potential applications of these technologies.
 
 ## Project Structure
 
