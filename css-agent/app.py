@@ -25,6 +25,8 @@ st.sidebar.markdown(
 
 if api_key:
     os.environ["OPENAI_API_KEY"] = api_key
+    import openai
+    openai.api_key = os.getenv("OPENAI_API_KEY")
     st.title("CSV Agent Interaction")
 
     if uploaded_file:
