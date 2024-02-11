@@ -70,6 +70,8 @@ def main():
             verbose = True,
       )
       
+      agent_runnable = create_react_agent(llm, tools, prompt)
+      
       class AgentState(TypedDict):
           input: str
           chat_history: list[BaseMessage]
