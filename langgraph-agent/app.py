@@ -149,7 +149,7 @@ def main():
           results.append(result)
           if "agent_outcome" in results:
             st.write(result)
-          # result = app.invoke({"input": input_text, "chat_history": [], "return_direct": False})
+          result = app.invoke({"input": input_text, "chat_history": [], "return_direct": False})
           # print(result["agent_outcome"].return_values["output"])
     
 if __name__ == "__main__":
