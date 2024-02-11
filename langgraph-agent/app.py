@@ -147,7 +147,8 @@ def main():
       for s in app.stream(inputs):
           result = list(s.values())[0]
           results.append(result)
-          st.write(result)
+          if "agent_outcome" in results:
+            st.write(result)
           # result = app.invoke({"input": input_text, "chat_history": [], "return_direct": False})
           # print(result["agent_outcome"].return_values["output"])
     
