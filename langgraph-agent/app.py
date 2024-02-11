@@ -119,7 +119,7 @@ def main():
               log="",
               message_log=[]
             )
-          return {"agent_outcome": action}
+            return {"agent_outcome": action}
       
       workflow = StateGraph(AgentState)
 
