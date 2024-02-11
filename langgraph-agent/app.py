@@ -26,7 +26,7 @@ def main():
     
     if st.button("Run Agent"):
 
-      os.environ["SERPER_API_KEY"] = "YOUR-KEY-API"
+      os.environ["SERPER_API_KEY"] = "7e9cda99ed3ccb1afe1a30e13c5632371ca4b23c"
   
       search = GoogleSerperAPIWrapper()
 
