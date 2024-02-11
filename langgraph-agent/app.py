@@ -69,8 +69,6 @@ def main():
             convert_system_message_to_human = True,
             verbose = True,
       )
-
-      agent_runnable = create_react_agent(llm, tools, prompt)
       
       class AgentState(TypedDict):
           input: str
@@ -121,30 +119,30 @@ def main():
               log="",
               message_log=[]
             )
-            return {"agent_outcome": action}
-
+          return {"agent_outcome": action}
+      
       workflow = StateGraph(AgentState)
 
-        workflow.add_node("agent", run_agent)
-        workflow.add_node("action", execute_tools)
-        workflow.add_node("final", execute_tools)
-        workflow.set_entry_point("agent")
-        workflow.add_conditional_edges(
-            "agent",
-            should_continue,
-            {
-                "continue": "action",
-                "final": "final",
-                "end": END
-            }
-        )
-        workflow.add_edge('action', 'agent')
-        workflow.add_edge('final', END)
-        app = workflow.compile()
-
-        inputs = {"input": input_text, "chat_history": [], "return_direct": False}
-        results = []
-        for s in app.stream(inputs):
-            result = list(s.values())[0]
-            results.append(result)
-            st.write(result)
+      workflow.add_node("agent", run_agent)
+      workflow.add_node("action", execute_tools)
+      workflow.add_node("final", execute_tools)
+      workflow.set_entry_point("agent")
+      workflow.add_conditional_edges(
+        "agent",
+        should_continue,
+        {
+            "continue": "action",
+            "final": "final",
+            "end": END
+        }
+      )
+      workflow.add_edge('action', 'agent')
+      workflow.add_edge('final', END)
+      app = workflow.compile()
+    
+      inputs = {"input": input_text, "chat_history": [], "return_direct": False}
+      results = []
+      for s in app.stream(inputs):
+          result = list(s.values())[0]
+          results.append(result)
+          st.write(result)
