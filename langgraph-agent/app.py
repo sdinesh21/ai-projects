@@ -146,8 +146,8 @@ def main():
           result = list(s.values())[0]
           results.append(result)
           st.write(result)
-    result = app.invoke({"input": input_text, "chat_history": [], "return_direct": False})
-    print(result["agent_outcome"].return_values["output"])
+          result = app.invoke({"input": input_text, "chat_history": [], "return_direct": False})
+          print(result["agent_outcome"].return_values["output"])
     
 if __name__ == "__main__":
     main()
