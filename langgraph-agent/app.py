@@ -145,11 +145,12 @@ def main():
       inputs = {"input": input_text, "chat_history": [], "return_direct": False}
       results = []
       for s in app.stream(inputs):
-          # result = list(s.values())[0]
-          # results.append(result)
+          result = list(s.values())[0]
+          results.append(result)
           st.write(result)
           result = app.invoke({"input": input_text, "chat_history": [], "return_direct": False})
-          print(result["agent_outcome"].return_values["output"])
+          # print(result["agent_outcome"].return_values["output"])
+          print(output)
     
 if __name__ == "__main__":
     main()
