@@ -65,7 +65,7 @@ def main():
       prompt = hub.pull("hwchase17/react")
       
       llm = ChatGoogleGenerativeAI(model="gemini-pro",
-            google_api_key="Your_API_KEY",
+            google_api_key="AIzaSyBUTV4-3OWbv6Wgkf7-XVZ38niWV0oW6Ak",
             convert_system_message_to_human = True,
             verbose = True,
       )
