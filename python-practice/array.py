@@ -1,5 +1,6 @@
 nums = [1,4,6,7,2,6,8]
 target = 3
+stack = [5,4,3,7,8,9]
 
 def two_sum (nums, target):
     for i in range(len(nums)):
@@ -32,3 +33,10 @@ print (two_sum(nums, target))
 
 nums.append(9)
 print (nums)
+
+print (f"Stack is {stack}")
+stack.pop()
+stack.append(1)
+print (f"Stack is {stack}")
+stack.pop()
+print (f"Stack is {stack}")

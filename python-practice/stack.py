@@ -1,24 +1,29 @@
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+class MinStack:
+    def __init__(self):
+        self.stack = []
+        self.min_stack = []
 
-def insertIntoBST(root, val):
-    if not root:
-        return TreeNode(val)
-    
-    if val < root.val:
-        root.left = insertIntoBST(root.left, val)
-    else:  # val > root.val
-        root.right = insertIntoBST(root.right, val)
-    
-    return root
+    def push(self, x: int):
+        self.stack.append(x)
+        if not self.min_stack or x <= self.min_stack[-1]:
+            self.min_stack.append(x)
+
+    def pop(self):
+        if self.stack.pop() == self.min_stack[-1]:
+            self.min_stack.pop()
+
+    def top(self):
+        return self.stack[-1]
+
+    def getMin(self):
+        return self.min_stack[-1]
 
 # Example usage
-# Let's say we're starting with a BST with root value 4, and we want to insert 2 and 7.
-root = TreeNode(4)
-insertIntoBST(root, 2)
-insertIntoBST(root, 7)
-
-# This would modify the original tree to have 2 as the left child and 7 as the right child of the root 4.
+minStack = MinStack()
+minStack.push(-2)
+minStack.push(0)
+minStack.push(-3)
+print(minStack.getMin())  # Returns -3
+minStack.pop()
+print(minStack.top())     # Returns 0
+print(minStack.getMin())  # Returns -2
