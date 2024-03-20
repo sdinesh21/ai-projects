@@ -35,16 +35,16 @@ Follow specific setup instructions for each project
 
 ## Projects
 
-1. **GPT**
+1. **GPT** <br />
 Text Generation Tool: Generates creative text based on input prompts.
 Chatbot: A simple AI chatbot using GPT for answering questions.
-2. **Langchain**
+2. **Langchain** <br />
 Language Model as a Service: Demonstrates how to set up various language models as a web service.
 Custom Search Engine: A search engine powered by Langchain for enhanced query understanding.
-3. **RAG**
+3. **RAG** <br />
 Fact-Checking Tool: Uses RAG to verify statements against a corpus of documents.
 Question Answering System: A sophisticated system that answers complex questions by retrieving relevant information.
-4. **Python Practice**
+4. **Python Practice** <br />
 This project is designed for beginners who are diving into the world of Python and want to get hands-on with the core concepts of data structures and algorithms. Whether you're preparing for interviews, enhancing your problem-solving skills, or just curious about Python, this repository is for you.
 What You Will Find Here -
     - Data Structures: Sample code covering essential Python data structures like Lists, Dictionaries, Sets, and Tuples.
