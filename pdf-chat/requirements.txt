@@ -1,0 +1,14 @@
+wheel
+langchain
+openai
+tiktoken
+streamlit
+pinecone-client
+unstructured
+# pdf2image
+# pdfminer.six
+# pillow_heif
+# unstructured_inference
+# pytesseract
+pypdf
+langchain-openai
