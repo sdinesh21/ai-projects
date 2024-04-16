@@ -1,6 +1,7 @@
 import os
 import streamlit as st
 import tempfile
+import traceback
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
@@ -92,6 +93,7 @@ def process_pdf():
             st.warning("Please enter your OpenAI API Key to proceed.")
     except Exception as e:
         st.error(f"An error occurred: {str(e)}")
+        traceback.print_exc()
 
 if __name__ == '__main__':
     process_pdf()
